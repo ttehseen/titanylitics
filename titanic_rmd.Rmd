@@ -11,9 +11,11 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## R Markdown
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+The data has been divided into two datasets; the training data and the testing data in order to see whether our ML learning models accurately predict the fatality rate. We will start defining a few plausible models using the training data and test this data to get a score and finally see which model is the most accurate.
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+###1 Complete fatality:
+
+In this model we predict that everyone dies. 
 
 ```{r cars}
 summary(cars)
